@@ -486,6 +486,10 @@ dictionary = {
   res.render("index",dictionary);
 });
 
+app.get("/exp2",function(req,res){
+  res.render("exp2");
+});
+
 app.listen(8080, function() {
   console.log("Server started on port 8080");
 });

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title></title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+    body{
+      font-family: 'EB Garamond', 'serif';
+    }
+
+    .tooltips{
+      cursor:pointer;
+      font-size: 25px;
+    }
+
+    .tooltips:hover{
+      text-decoration: underline;
+    }
+
+    .tooltips span {
+        display:none;
+        color:black;
+        font-size:1rem;
+        background-color:white;
+        border: solid 1px black;
+        font-family: sans-serif;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+
+    .tooltips:hover span {
+        display:block;
+        position:fixed;
+        overflow:hidden;
+    }
+
+    span{
+      font-size: 25px;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="text-center title">
+      <h3><span class="tooltips">À<span><%=  dictionary["à"][0] %></span></span> <span>LÉON</span> <span>WERTH</span></h3>
+    </div>
+
+    <div class="text-justify">
+      <p>
+        <span class="tooltips">Je demande<span><%=  dictionary["je demande"][0] %></span></span> <span class="tooltips">pardon<span><%=  dictionary["pardon"][0] %></span></span> <span class="tooltips">aux<span><%=  dictionary["aux"][0] %></span></span> <span class="tooltips">enfants<span><%=  dictionary["enfants"][0] %></span></span> <span class="tooltips">d’avoir<span><%=  dictionary["d’avoir"][0] %></span></span> <span class="tooltips">dédié<span><%=  dictionary["dédié"][0] %></span></span> <span class="tooltips">ce<span><%=  dictionary["ce"][0] %></span></span> <span class="tooltips">livre<span><%=  dictionary["livre"][0] %></span></span> <span class="tooltips">à<span><%=  dictionary["à"][1] %></span></span> <span class="tooltips">une<span><%=  dictionary["une"][0] %></span></span> <span class="tooltips">grande personne<span><%=  dictionary["grande personne"][0] %></span></span>. <span class="tooltips">J’ai<span><%=  dictionary["j’ai"][0] %></span></span> <span class="tooltips">une<span><%=  dictionary["une"][0] %></span></span> <span class="tooltips">excuse<span><%=  dictionary["excuse"][0] %></span></span> <span class="tooltips">sérieuse<span><%=  dictionary["sérieuse"][0] %></span></span> <span>: </span><span class="tooltips">cette<span><%=  dictionary["cette"][0] %></span></span> <span class="tooltips">grande personne<span><%=  dictionary["grande personne"][0] %></span></span> <span class="tooltips">est<span><%=  dictionary["est"][0] %></span></span> <span class="tooltips">le<span><%=  dictionary["le"][0] %></span></span> <span class="tooltips">meilleur<span><%=  dictionary["meilleur"][0] %></span></span> <span class="tooltips">ami<span><%=  dictionary["ami"][0] %></span></span> <span class="tooltips">que<span><%=  dictionary["que"][0] %></span></span> <span class="tooltips">j’ai<span><%=  dictionary["j’ai"][0] %></span></span> <span class="tooltips">au<span><%=  dictionary["au"][0] %></span></span> <span class="tooltips">monde<span><%=  dictionary["monde"][0] %></span></span>. <span class="tooltips">J’ai<span><%=  dictionary["j’ai"][0] %></span></span> <span class="tooltips">une<span><%=  dictionary["une"][0] %></span></span> <span class="tooltips">autre<span><%=  dictionary["autre"][0] %></span></span> <span class="tooltips">excuse<span><%=  dictionary["excuse"][0] %></span></span> <span>: </span><span class="tooltips">cette<span><%=  dictionary["cette"][0] %></span></span> <span class="tooltips">grande personne<span><%=  dictionary["grande personne"][0] %></span></span> <span class="tooltips">peut<span><%=  dictionary["peut"][0] %></span></span> <span class="tooltips">tout comprendre,<span><%=  dictionary["tout comprendre"][0] %></span></span> <span class="tooltips">même<span><%=  dictionary["même"][0] %></span></span> <span class="tooltips">les<span><%=  dictionary["les"][0] %></span></span> <span class="tooltips">livres<span><%=  dictionary["livres"][0] %></span></span> <span class="tooltips">pour<span><%=  dictionary["pour"][0] %></span></span> <span class="tooltips">enfants.<span><%=  dictionary["enfants"][0] %></span></span> <span class="tooltips">J’ai<span><%=  dictionary["j’ai"][0] %></span></span> <span class="tooltips">une<span><%=  dictionary["une"][0] %></span></span> <span class="tooltips">troisième<span><%=  dictionary["troisième"][0] %></span></span> <span class="tooltips">excuse<span><%=  dictionary["excuse"][0] %></span></span> <span>: </span><span class="tooltips">cette<span><%=  dictionary["cette"][0] %></span></span> <span class="tooltips">grande personne<span><%=  dictionary["grande personne"][0] %></span></span> <span class="tooltips">habite la France<span><%=  dictionary["habite la France"][0] %></span></span> <span class="tooltips">où<span><%=  dictionary["où"][0] %></span></span> <span class="tooltips">elle<span><%=  dictionary["elle"][0] %></span></span> <span class="tooltips">a<span><%=  dictionary["a"][0] %></span></span> <span class="tooltips">faim<span><%=  dictionary["faim"][0] %></span></span> <span class="tooltips">et<span><%=  dictionary["et"][0] %></span></span> <span class="tooltips">froid.<span><%=  dictionary["froid"][0] %></span></span> <span class="tooltips">Elle<span><%=  dictionary["elle"][0] %></span></span> <span class="tooltips">a bien besoin<span><%=  dictionary["a bien besoin"][0] %></span></span> <span class="tooltips">d’être<span><%=  dictionary["d’être"][0] %></span></span> <span class="tooltips">consolée.<span><%=  dictionary["consolée"][0] %></span></span> <span class="tooltips">Si<span><%=  dictionary["si"][0] %></span></span> <span class="tooltips">toutes<span><%=  dictionary["toutes"][0] %></span></span> <span class="tooltips">ces<span><%=  dictionary["ces"][0] %></span></span> <span class="tooltips">excuses<span><%=  dictionary["excuses"][0] %></span></span> <span class="tooltips">ne suffisent pas,<span><%=  dictionary["ne suffisent pas"][0] %></span></span> <span class="tooltips">je veux bien<span><%=  dictionary["je veux bien"][0] %></span></span> <span class="tooltips">dédier<span><%=  dictionary["dédier"][0] %></span></span> <span class="tooltips">ce<span><%=  dictionary["ce"][0] %></span></span> <span class="tooltips">livre<span><%=  dictionary["livre"][0] %></span></span> <span class="tooltips">à<span><%=  dictionary["à"][0] %></span></span> <span class="tooltips">l’enfant<span><%=  dictionary["l’enfant"][0] %></span></span> <span class="tooltips">qu’a été autrefois<span><%=  dictionary["qu’a été autrefois"][0] %></span></span> <span class="tooltips">cette<span><%=  dictionary["cette"][0] %></span></span> <span class="tooltips">grande personne.<span><%=  dictionary["grande personne"][0] %></span></span> <span class="tooltips">Toutes<span><%=  dictionary["toutes"][0] %></span></span> <span class="tooltips">les<span><%=  dictionary["les"][1] %></span></span> <span class="tooltips">grandes personnes<span><%=  dictionary["grandes personnes"][0] %></span></span> <span class="tooltips">ont d’abord été<span><%=  dictionary["ont d’abord été"][0] %></span></span> <span class="tooltips">des enfants.<span><%=  dictionary["des enfants"][0] %></span></span> (<span class="tooltips">Mais<span><%=  dictionary["mais"][0] %></span></span> <span class="tooltips">peu<span><%=  dictionary["peu"][0] %></span></span> <span class="tooltips">d’entre<span><%=  dictionary["d’entre"][0] %></span></span> <span class="tooltips">elles<span><%=  dictionary["elles"][0] %></span></span> <span class="tooltips">s’en souviennent<span><%=  dictionary["s’en souviennent"][0] %></span></span>.) <span class="tooltips">Je corrige<span><%=  dictionary["je corrige"][0] %></span></span> <span class="tooltips">donc<span><%=  dictionary["donc"][0] %></span></span> <span class="tooltips">ma<span><%=  dictionary["ma"][0] %></span></span> <span class="tooltips">dédicace<span><%=  dictionary["dédicace"][0] %></span></span> <span>:</span>
+      </p>
+
+    </div>
+    <div class="text-center">
+      <p>
+        <span class="tooltips">À<span><%=  dictionary["à"][0] %></span></span> <span>LÉON</span> <span>WERTH</span>
+      </p>
+      <p>
+        <span class="tooltips">QUAND<span><%=  dictionary["quand"][0] %></span></span> <span class="tooltips">IL<span><%=  dictionary["il"][0] %></span></span> <span class="tooltips">ÉTAIT<span><%=  dictionary["était"][0] %></span></span> <span class="tooltips">PETIT<span><%=  dictionary["petit"][0] %></span></span> <span class="tooltips">GARÇON<span><%=  dictionary["garçon"][0] %></span></span>
+      </p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

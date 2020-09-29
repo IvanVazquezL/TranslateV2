@@ -1,5 +1,6 @@
 const express = require("express");
 const ejs = require("ejs");
+var port = process.env.PORT || 8080;
 
 const app = express();
 
@@ -490,6 +491,6 @@ app.get("/exp2",function(req,res){
   res.render("exp2");
 });
 
-app.listen(8080, function() {
+app.listen(port, function() {
   console.log("Server started on port 8080");
 });
